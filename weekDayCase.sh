@@ -9,13 +9,13 @@ case $number in
 		3)
 			printf "WEDNEDAY" ;;
 		4)
-      	printf "THURSDAY" ;;
+			printf "THURSDAY" ;;
 		5)
-      	printf "FRIDAY" ;;
-    	6)
-      	printf "SATURDAY" ;;
-    	7)
-      	printf "SUNDAY" ;;
+			printf "FRIDAY" ;;
+		6)
+			printf "SATURDAY" ;;
+		7)
+			printf "SUNDAY" ;;
 		*)
 			printf "Invalid Input" ;;
 esac
