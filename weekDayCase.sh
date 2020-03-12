@@ -5,12 +5,12 @@ case $number in
 		1)
 			printf "MONDAY" ;;
 		2)
-      	printf "THUSDAY" ;;
-    	3)
-     		printf "WEDNEDAY" ;;
-    	4)
+			printf "THUSDAY" ;;
+		3)
+			printf "WEDNEDAY" ;;
+		4)
       	printf "THURSDAY" ;;
-    	5)
+		5)
       	printf "FRIDAY" ;;
     	6)
       	printf "SATURDAY" ;;
