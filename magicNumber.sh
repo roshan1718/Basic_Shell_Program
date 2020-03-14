@@ -1,4 +1,7 @@
 #!/bin/bash -x
+# @Purpose : Find the Magic number ask the user to think of a number n between 1 to 100
+# @Author : Roshan Balkrushna Shinde
+# @Since : 14-03-2020 
 
 start=1
 end=100
