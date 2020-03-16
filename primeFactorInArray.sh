@@ -15,9 +15,11 @@ do
 	do
 		if [[ $(( $number% $j )) -eq 0 ]]
 		then
-           array[c++]=$i
+			array[c++]=$i
 		fi
-	number=$(($number/$j))
+		
+		number=$(($number/$j))
+	
 	done
 done
 }
