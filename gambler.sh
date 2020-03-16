@@ -5,22 +5,24 @@
 # @Since : 14-03-2020 
 
 stakes=100
-goalamount=200
-betcount=0
-wincount=0
-
-while [[ $stakes -gt 0 && $stakes -lt $goalamount ]]
+goalAmount=200
+betCount=0
+winCount=0
+loseCount=0
+while [[ $stakes -gt 0 && $stakes -lt $goalAmount ]]
 do
-	((betcount++))
+	((betCount++))
 	random=$((RANDOM % 2 ))
 	if [[ $random -eq 1 ]]
 	then
 		((stakes++))
-		((wincount++))
+		((winCount++))
 	else
 		((stakes--))
+		((loseCount++))
 	fi
 done
-echo Gambler played $betcount times
-echo Gambler won game $wincount times
+echo Gambler played $betCount times
+echo Gambler won game $winCount times
+echo Gambler lose game $loseCount times
 echo Available stakes = $stakes
